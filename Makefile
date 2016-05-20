@@ -1,14 +1,12 @@
-CC="/usr/bin/g++-4.4"
+CC="/usr/bin/g++"
 CFLAGS=-Wall -fexceptions -g -Iinclude -c
 EXEC=AIPaths
 TOP := $(dir $(lastword $(MAKEFILE_LIST)))
-LIB := $(TOP)SFML-2.3.2/lib
 all: Main #Main.o Agent.o GameState.o Map.o
 
 
 Main: Main.o Agent.o GameState.o Map.o
-	LD_LIBRARY_PATH=$(LIB) $(CC) -o $(TOP)$(EXEC) Main.o GameState.o Agent.o Map.o -L$(LIB) -lsfml-system -lsfml-win\
-	dow -lsfml-graphics
+	$(CC) -o $(TOP)$(EXEC) Main.o GameState.o Agent.o Map.o -lsfml-system -lsfml-window -lsfml-graphics 
 
 
 Main.o: main.cpp
