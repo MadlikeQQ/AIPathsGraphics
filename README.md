@@ -13,9 +13,24 @@ Some of the things learned from this:
 - Drawing of 2D sprites in the above map , and animating according to movement, by recycling a 2D sprite strip.
 
 
-### Installation
+# Installation (Linux/MAC)
 To install you have to have G++-4.4 installed. External SFML libraries are provided with the project, might also need some 
-openGL libraries. Run make with the Makefile provided and then use the bash script "run" which is also provided.
+openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run` which is also provided.
+
+To install gcc4.4 please check with the repositories of your current distribution some examples
+
+### Ubuntu 
+```
+sudo apt-get install gcc-4.4 cpp-4.4 gcc-4.4 gcc-4.4-base
+```
+### Arch (AUR)
+```
+yaourt -S gcc44
+```
+or 
+```
+yaourt -S gcc44-multilib
+```
 
 If you run into problems please dont hesitate to contact me.
 
