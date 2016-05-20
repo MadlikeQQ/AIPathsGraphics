@@ -14,10 +14,13 @@ Some of the things learned from this:
 
 
 # Installation (Linux/MAC)
-To install you have to have G++-4.4 installed. External SFML libraries are provided with the project, might also need some 
+To install you have to have G++ 4.4 installed. External SFML libraries are provided with the project, might also need some 
 openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run` which is also provided.
 
-To install gcc4.4 please check with the repositories of your current distribution some examples
+
+
+## GCC4.4
+To install gcc4.4 please check with the repositories of your current distribution. Some examples:
 
 ### Ubuntu 
 ```
