@@ -15,7 +15,8 @@ Some of the things learned from this:
 
 # Installation (Linux/MAC x86_64)
 To install you have to have G++ 4.4 installed. External SFML libraries are provided with the project, might also need some 
-openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run test.txt` which is also provided.
+openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run test.txt` which is also provided
+along with a sample testcase file called 'test.txt'.
 
 
 
