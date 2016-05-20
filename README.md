@@ -14,26 +14,24 @@ Some of the things learned from this:
 
 
 # Installation (Linux/MAC x86_64)
-To install you have to have G++ 4.4 installed. External SFML libraries are provided with the project, might also need some 
-openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run test.txt` which is also provided
+To install you have to have the SFML libraries installed for your system and some openGL libraries which should already be installed.
+Then run `make` with the Makefile provided and then use the bash script `./run test.txt` which is also provided
 along with a sample testcase file called 'test.txt'.
 
 
 
-## GCC4.4
-To install gcc4.4 please check with the repositories of your current distribution. Some examples:
+## SFML
+To install smfl libraries please check with the repositories of your current distribution. Some examples:
 
 ### Ubuntu 
+
 ```
-sudo apt-get install gcc-4.4 cpp-4.4 gcc-4.4 gcc-4.4-base
+sudo apt-get install libsfml-dev
 ```
+More info [here]
 ### Arch (AUR)
 ```
-yaourt -S gcc44
-```
-or 
-```
-yaourt -S gcc44-multilib
+sudo pacman -S sfml
 ```
 
 If you run into problems please dont hesitate to contact me.
@@ -43,3 +41,4 @@ If you run into problems please dont hesitate to contact me.
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [ntua]: <http://ece.ntua.gr>
    [Introduction to Artificial Intelligence]: <http://www.ece.ntua.gr/en/education/undergraduate?view=ugcourse&id=83>
+   [here]: <http://www.sfml-dev.org/tutorials/2.0/start-linux.php>
