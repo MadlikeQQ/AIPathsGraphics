@@ -13,7 +13,7 @@ Some of the things learned from this:
 - Drawing of 2D sprites in the above map , and animating according to movement, by recycling a 2D sprite strip.
 
 
-# Installation (Linux/MAC)
+# Installation (Linux/MAC x86_64)
 To install you have to have G++ 4.4 installed. External SFML libraries are provided with the project, might also need some 
 openGL libraries. Run `make` with the Makefile provided and then use the bash script `./run test.txt` which is also provided.
 
